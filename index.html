@@ -7,23 +7,11 @@
   <style>
     body {
       margin: 0;
-      font-family: 'Arial', sans-serif;
+      font-family: Arial, sans-serif;
       background: linear-gradient(to bottom, #8e0000, #000);
-      color: #fff;
+      color: white;
       text-align: center;
     }
-
-    h1 {
-      font-size: 48px;
-      margin-top: 30px;
-    }
-
-    .subline {
-      font-size: 20px;
-      font-weight: bold;
-      margin-bottom: 20px;
-    }
-
     .button {
       background: red;
       color: white;
@@ -32,62 +20,53 @@
       border: none;
       border-radius: 30px;
       cursor: pointer;
-      margin: 20px auto;
-      display: inline-block;
+      margin-top: 20px;
     }
-
-    .image-row {
+    .section {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 30px;
+    }
+    .images {
+      margin-top: 30px;
       display: flex;
       justify-content: center;
-      gap: 40px;
-      margin: 40px 0;
+      flex-wrap: wrap;
+      gap: 20px;
     }
-
-    .token-img {
-      width: 150px;
-      height: auto;
-      border-radius: 20px;
-      box-shadow: 0 0 12px rgba(255, 255, 255, 0.3);
+    .images img {
+      max-width: 150px;
+      border-radius: 12px;
     }
-
-    .footer {
+    footer {
+      font-size: 14px;
       margin-top: 40px;
-      font-size: 16px;
-    }
-
-    .footer a {
-      color: #00ffff;
-      margin: 0 10px;
-      text-decoration: none;
+      padding-bottom: 20px;
     }
   </style>
 </head>
 <body>
   <h1>OVI895 COIN</h1>
-  <p class="subline">OVIE895 was SHORT, OVI895 COIN is for going LONG 🚀</p>
-
+  <p><strong>OVIE895 was SHORT, OVI895 COIN is for going LONG 🚀</strong></p>
   <button class="button">Buy $OVI895</button>
-
-  <p>Ovi is chasing history.<br>$OVI895 is the meme coin that GOATed before the goal.</p>
-
-  <div style="margin-top: 30px;">
-  <img src="public/assets/ovi895_coin.png" alt="OVI Coin" width="100" style="margin: 10px;">
-  <img src="public/assets/ovechkin_cartoon.png" alt="Ovechkin Cartoon" width="140" style="margin: 10px;">
-  <img src="public/assets/goal_net.png" alt="Goal Net" width="140" style="margin: 10px;">
-</div>
-
-  <h3>About the Token</h3>
-  <p>
-    $OVI895 is a meme token inspired by Alexander Ovechkin’s legendary chase for 895 goals.
-    Join the community of hockey and crypto fans riding with the GOAT.
-  </p>
-
-  <div class="footer">
-    Connect with us: 
-    <a href="https://t.me/OVI895coin" target="_blank">Telegram</a> |
-    <a href="https://x.com/OVI895_official" target="_blank">Twitter/X</a>
-    <br><br>
-    <strong>Presale Launches Soon... 🏒 Stay tuned!</strong>
+  <div class="section">
+    <p>Ovi is chasing history.<br />
+    $OVI895 is the meme coin that GOATed before the goal.</p>
+    <div class="images">
+      <img src="/assets/ovi895_coin.png" alt="OVI Coin" />
+      <img src="/assets/ovechkin_cartoon.png" alt="Ovechkin Cartoon" />
+      <img src="/assets/goal_net.png" alt="Goal Net" />
+    </div>
+    <h3>About the Token</h3>
+    <p>$OVI895 is a meme token inspired by Alexander Ovechkin’s legendary chase for 895 goals.<br>
+    Join the community of hockey and crypto fans riding with the GOAT.</p>
+    <footer>
+      <p>Connect with us:
+        <a href="https://t.me/OVI895coin" target="_blank" style="color: #00BFFF;">Telegram</a> |
+        <a href="https://twitter.com/OVI895_official" target="_blank" style="color: #00BFFF;">Twitter/X</a>
+      </p>
+      <p><strong>Presale Launches Soon... ✍️ Stay tuned!</strong></p>
+    </footer>
   </div>
 </body>
 </html>
